@@ -3,6 +3,7 @@ body {
   color: #0c0c0c;
   background-color: #f8f8f8;
   overflow-x: hidden;
+  padding-top: 70px;
 }
 
 .layout_padding4{
@@ -147,6 +148,11 @@ a:focus {
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
+}
+
+.fixed-top {
+  z-index: 1030; 
+  background-color: #020230;
 }
 
 .navbar-brand span {
@@ -1136,3 +1142,9 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+@media (min-width: 992px) {
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
